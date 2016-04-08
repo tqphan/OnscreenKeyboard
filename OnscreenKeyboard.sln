@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnscreenKeyboard.Models", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnscreenKeyboard.Commons", "OnscreenKeyboard.Commons\OnscreenKeyboard.Commons.csproj", "{C4E22DCF-5FC8-496D-9B79-DC223EE0FF0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnscreenKeyboard.ViewModels", "OnscreenKeyboard.ViewModels\OnscreenKeyboard.ViewModels.csproj", "{D92B811F-298D-4B9A-90CC-FF53B4437B2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C4E22DCF-5FC8-496D-9B79-DC223EE0FF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4E22DCF-5FC8-496D-9B79-DC223EE0FF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4E22DCF-5FC8-496D-9B79-DC223EE0FF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92B811F-298D-4B9A-90CC-FF53B4437B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92B811F-298D-4B9A-90CC-FF53B4437B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92B811F-298D-4B9A-90CC-FF53B4437B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92B811F-298D-4B9A-90CC-FF53B4437B2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
