@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Practices.Prism.Mvvm;
 
-namespace OnscreenKeyboard.Model
+namespace OnscreenKeyboard.Models
 {
     public abstract class KeyBase: BindableBase
     {
@@ -13,6 +13,7 @@ namespace OnscreenKeyboard.Model
         private double y;
         private double width;
         private double height;
+        private bool repeating;
 
         public double X
         {
@@ -36,6 +37,12 @@ namespace OnscreenKeyboard.Model
         {
             get { return this.height; }
             set { SetProperty(ref this.height, value); }
+        }
+
+        public bool Repeating
+        {
+            get { return this.repeating; }
+            set { SetProperty(ref this.repeating, value); }
         }
     }
 }

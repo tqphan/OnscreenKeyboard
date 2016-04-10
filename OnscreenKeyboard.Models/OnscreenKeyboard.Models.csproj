@@ -54,15 +54,15 @@
   <ItemGroup>
     <Compile Include="Models\KeyBase.cs" />
     <Compile Include="Models\KeyboardModel.cs" />
+    <Compile Include="Models\KeyboardSettings.cs" />
     <Compile Include="Models\KeysPanel.cs" />
     <Compile Include="Models\LockingKey.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\ShiftingKey.cs" />
     <Compile Include="Models\StandardKey.cs" />
+    <Compile Include="Providers\IKeyboardModel.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Providers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
